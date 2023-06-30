@@ -4,8 +4,12 @@ import Joke from "./components/Joke.js";
 function App() {
   return (
     <div>
-      <h1> Heading </h1>
-      <Joke />
+      <h1 className="center"> Jokes </h1>
+      <Joke
+        number="1"
+        setup="I got my daughter a fridge for her birthday."
+        punchline="I can't wait to see her face light up when she opens it."
+      />
     </div>
   );
 }

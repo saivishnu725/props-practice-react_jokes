@@ -1,10 +1,16 @@
-function Joke({setup, punchline}) {
-
+function Joke({ number, setup, punchline }) {
+  return (
+    <div className="joke-container">
+      <p className="joke-count"> Joke {number}: </p>
+      <div className="joke">
+        <p className="setup"> {setup} </p>
+        <p className="punchline"> {punchline} </p>
+      </div>
+    </div>
+  );
 }
 
 export default Joke;
-
-
 
 /* Challenge:
 
