@@ -35,6 +35,9 @@ function App() {
         setup="What's the best thing about Switzerland?"
         punchline="I don't know, but the flag is a big plus!"
       />
+
+      {/* a joke with only setup */}
+      <Joke number="6" setup="I was addicted to soap, but I'm clean now." />
     </div>
   );
 }
