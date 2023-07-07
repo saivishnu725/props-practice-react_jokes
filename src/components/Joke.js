@@ -3,9 +3,10 @@ function Joke({ number, setup, punchline }) {
     <div className="joke-container">
       <p className="joke-count"> Joke {number}: </p>
       <div className="joke">
-        <p className="setup"> {setup} </p>
-        <p className="punchline"> {punchline} </p>
+        {setup && <p className="setup"> {setup} </p>}
+        {punchline && <p className="punchline"> {punchline} </p>}
       </div>
+      <hr />
     </div>
   );
 }
