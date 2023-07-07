@@ -3,9 +3,19 @@ import Joke from "./components/Joke.js";
 import JokesData from "./jokesData.js";
 
 function App() {
+  const jokes = JokesData.map((j) => (
+    <Joke
+      key={j.number}
+      number={j.number}
+      setup={j.setup}
+      punchline={j.punchline}
+    />
+  ));
+
   return (
     <div>
       <h1 className="center"> Jokes </h1>
+      {jokes}
     </div>
   );
 }
