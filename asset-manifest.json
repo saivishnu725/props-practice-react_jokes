@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/props-practice-react_jokes/static/css/main.f18f6fd8.css",
+    "main.js": "/props-practice-react_jokes/static/js/main.4cdd80c3.js",
+    "static/js/787.b9f7fbfa.chunk.js": "/props-practice-react_jokes/static/js/787.b9f7fbfa.chunk.js",
+    "index.html": "/props-practice-react_jokes/index.html",
+    "main.f18f6fd8.css.map": "/props-practice-react_jokes/static/css/main.f18f6fd8.css.map",
+    "main.4cdd80c3.js.map": "/props-practice-react_jokes/static/js/main.4cdd80c3.js.map",
+    "787.b9f7fbfa.chunk.js.map": "/props-practice-react_jokes/static/js/787.b9f7fbfa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f18f6fd8.css",
+    "static/js/main.4cdd80c3.js"
+  ]
+}
